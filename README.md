@@ -1,8 +1,63 @@
+# 📊 Analisis Korelasi Beban Akademik terhadap Stabilitas Emosional Mahasiswa
+
+> Dokumentasi proyek penelitian mata kuliah **Sampling dan Survei** Program Studi **Sains Data**, Institut Teknologi Sains Bandung (ITSB).
+
+---
+
+## 📖 Tentang Proyek
+
+Repository ini berisi dokumentasi penelitian mengenai hubungan antara **beban akademik** dan **stabilitas emosional mahasiswa** menggunakan pendekatan survei dan analisis statistik.
+
+Seluruh proses penelitian mulai dari penyusunan kuesioner, pengumpulan data, pengolahan data, visualisasi, hingga analisis korelasi terdokumentasi dalam proyek ini.
+
+Repository ini berfungsi sebagai **landing page** yang menghubungkan seluruh dokumentasi penelitian, sehingga pembaca dapat mengakses laporan analisis, presentasi, kuesioner, dan dataset secara terstruktur.
+
+---
+
+## 🎯 Tujuan Penelitian
+
+- Menganalisis tingkat beban akademik mahasiswa.
+- Mengidentifikasi kondisi stabilitas emosional mahasiswa.
+- Mengetahui hubungan antara beban akademik dan stabilitas emosional menggunakan metode statistik.
+- Mendokumentasikan seluruh proses penelitian dalam satu repository.
+
+---
+
+## 📂 Dokumentasi Penelitian
+
+### 📓 Laporan Analisis (Google Colab)
+
+Berisi proses pengolahan data, visualisasi, pengujian statistik, interpretasi hasil, dan pembahasan penelitian secara lengkap.
+
+🔗 https://colab.research.google.com/drive/1gcW-q46VkvJamOH7CbWAkE_KXyfsMOd5?usp=sharing
+
+---
+
+### 📑 Presentasi Penelitian (Canva)
+
+Berisi ringkasan penelitian dalam bentuk slide presentasi.
+
+🔗 https://canva.link/ve5awf9psxv0nnf
+
+---
+
+### 📝 Kuesioner Penelitian (Google Forms)
+
+Instrumen penelitian yang digunakan dalam proses pengumpulan data.
+
+🔗 https://docs.google.com/forms/d/e/1FAIpQLSew8igzESoHQTTasmeQeTN2wp3RF3_6iNrNGoitO3K0FDws2w/viewform?usp=header
+
+---
+
+### 📊 Dataset
+
+Dataset yang digunakan dalam penelitian tersedia pada repository ini dan menjadi sumber utama dalam proses analisis.
+
 ---
 
 ## 🔬 Metodologi Analisis
 
-Tahapan penelitian yang dilakukan meliputi
+Tahapan penelitian yang dilakukan meliputi:
 
 1. Penyusunan instrumen penelitian (kuesioner).
 2. Pengumpulan data menggunakan Google Forms.
@@ -14,15 +69,17 @@ Tahapan penelitian yang dilakukan meliputi
 8. Interpretasi Hasil.
 9. Penyusunan Laporan dan Presentasi.
 
-> Detail lengkap tiap tahapan — termasuk kode, grafik, dan hasil uji statistik — dapat dilihat pada **Laporan Analisis** di atas.
+> Detail lengkap setiap tahapan dapat dilihat pada **Laporan Analisis (Google Colab)**.
 
 ---
 
 ## 🧾 Tentang Dataset & Sampel
 
-Data dikumpulkan melalui **18 pertanyaan survei** (kombinasi identitas responden, pertanyaan kategorikal, dan pertanyaan skala Likert 1–5) yang disebarkan kepada mahasiswa aktif Institut Teknologi Sains Bandung (ITSB) menggunakan metode **Convenience Sampling**.
+Data dikumpulkan melalui **18 pertanyaan survei** yang terdiri atas data identitas responden, pertanyaan kategorikal, dan skala Likert (1–5).
 
-Rincian lengkap struktur pertanyaan, jumlah responden, dan metodologi sampling (termasuk Margin of Error) dijelaskan secara rinci di dalam Laporan Analisis.
+Pengambilan sampel menggunakan metode **Convenience Sampling** terhadap mahasiswa aktif Institut Teknologi Sains Bandung (ITSB).
+
+Penjelasan mengenai jumlah responden, struktur pertanyaan, metode sampling, serta Margin of Error dapat dilihat pada laporan analisis.
 
 ---
 
@@ -32,7 +89,8 @@ Rincian lengkap struktur pertanyaan, jumlah responden, dan metodologi sampling (
 - Google Colab
 - Pandas
 - NumPy
-- Matplotlib & Seaborn
+- Matplotlib
+- Seaborn
 - SciPy
 - Google Forms
 - Canva
@@ -41,31 +99,46 @@ Rincian lengkap struktur pertanyaan, jumlah responden, dan metodologi sampling (
 
 ## 📚 Alur Membaca Dokumentasi
 
-Disarankan mengikuti urutan berikut bagi yang ingin memahami penelitian ini secara lengkap:
+Disarankan mengikuti urutan berikut agar memperoleh gambaran penelitian secara menyeluruh.
 
-1. 📝 Lihat pertanyaan survei melalui **Kuesioner (Google Forms)**.
-2. 📊 Lihat data mentah pada **Dataset (CSV)**.
-3. 📓 Baca proses analisis lengkap pada **Laporan Analisis (Notebook)**.
-4. 📑 Lihat ringkasan hasil melalui **Presentasi (Canva)**.
+1. 📝 Kuesioner Penelitian (Google Forms)
+2. 📊 Dataset Penelitian
+3. 📓 Laporan Analisis (Google Colab)
+4. 📑 Presentasi Penelitian (Canva)
+
+---
+
+## 📁 Struktur Repository
+
+Repository ini terdiri atas beberapa komponen utama:
+
+- **README.md** → Dokumentasi dan informasi proyek.
+- **Dataset (.csv)** → Data hasil survei.
+- **Notebook (.ipynb)** → Laporan analisis lengkap menggunakan Google Colab.
+- **Presentasi** → Ringkasan hasil penelitian.
 
 ---
 
 ## 📌 Catatan
 
-- Repository ini dibuat sebagai dokumentasi proyek akademik pada mata kuliah Sampling dan Survey, Program Studi **Sains Data**, Institut Teknologi Sains Bandung (ITSB).
-- Seluruh data yang digunakan merupakan data hasil survei yang telah diolah untuk tujuan pembelajaran, analisis statistik, dan penelitian.
-- Hasil penelitian bersifat **eksploratif** (sampel non-acak/convenience sampling) dan tidak dimaksudkan untuk digeneralisasi ke seluruh populasi mahasiswa ITSB tanpa kajian lanjutan.
+- Repository ini dibuat sebagai dokumentasi proyek akademik mata kuliah **Sampling dan Survei**.
+- Seluruh data yang digunakan merupakan data hasil survei yang telah diolah untuk tujuan pembelajaran dan penelitian.
+- Hasil penelitian bersifat **eksploratif** sehingga tidak dimaksudkan untuk digeneralisasi tanpa kajian lanjutan.
 
 ---
 
 ## 👨‍💻 Penyusun
 
-**KELOMPOK 1**
-Program Studi Sains Data — Institut Teknologi Sains Bandung (ITSB)
+**Kelompok 1**
+
+Program Studi **Sains Data**
+
+Institut Teknologi Sains Bandung (ITSB)
 
 ---
 
 ## ⭐ Terima Kasih
 
 Terima kasih telah mengunjungi repository ini.
-Untuk detail lengkap hasil analisis, visualisasi, dan pembahasan, silakan kunjungi **Laporan Analisis** atau **Presentasi** yang telah ditautkan di atas.
+
+Untuk melihat proses analisis secara lengkap, silakan mengakses **Laporan Analisis**, **Presentasi**, atau **Kuesioner Penelitian** melalui tautan yang tersedia di atas.
