@@ -1,6 +1,6 @@
 # 📊 Analisis Korelasi Beban Akademik terhadap Stabilitas Emosional Mahasiswa
 
-> Dokumentasi proyek penelitian mata kuliah **Sampling dan Survei** Program Studi **Sains Data**, Institut Teknologi Sains Bandung (ITSB).
+> Dokumentasi proyek penelitian mata kuliah **Sampling dan Survei** (KELOMPOK 1) Program Studi **Sains Data**, Institut Teknologi Sains Bandung (ITSB).
 
 ---
 
