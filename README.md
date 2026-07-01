@@ -2,7 +2,7 @@
 
 ## 🔬 Metodologi Analisis
 
-Tahapan penelitian yang dilakukan meliputi:
+Tahapan penelitian yang dilakukan meliputi
 
 1. Penyusunan instrumen penelitian (kuesioner).
 2. Pengumpulan data menggunakan Google Forms.
